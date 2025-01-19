@@ -1,17 +1,18 @@
 import { Link } from "react-router-dom";
 
-import './css/output.css'
-import './css/Index.css'
+import './css/Index.css';
+import './css/output.css';
 
 // Images
-import logo from './assets/lockedin-logo.png'
-import wave from './assets/solo-wave.png'
-import pfp from './assets/placeholder-pfp.jpg'
+import logo from './assets/lockedin-logo.png';
+import pfp from './assets/placeholder-pfp.jpg';
+import wave from './assets/solo-wave.png';
+import LeetCodeStats from './LeetCodeStats';
 
-function Index(){
-    return(
+function Index() {
+    return (
         <>
-            <header class="mx-[10rem] mt-[1rem]"> 
+            <header class="mx-[10rem] mt-[1rem]">
                 <nav class="flex ">
                     <Link to="/">
                         <img src={logo} alt="Home"
@@ -27,7 +28,7 @@ function Index(){
                     <div>
                         {/* Heading */}
                         <h1 class="font-semibold text-[2.5rem]">
-                            Hello,&nbsp; 
+                            Hello,&nbsp;
                             <span id="username" class="dark-blue">
                                 Yonka!</span>
                         </h1>
@@ -53,14 +54,16 @@ function Index(){
                             Lorem ipsum
                         </section>
                     </div>
-                
+
                     <section class="bg-[#FFFFFF] row-span-2 p-[1.5rem] rounded-card">
                         <h2 class="font-semibold display-font text-center">YOUR STATS</h2>
                         <img src={pfp}
                             class="rounded-[50%] w-[10rem] mx-auto border-[0.2rem] border-[#FFFFFF] mt-[0.5rem]" />
                         <p class="text-[1.5rem] font-semibold display-font text-[#88C7E8]">
                             Yonka
+                            <LeetCodeStats />
                         </p>
+
                     </section>
                 </div>
             </main>
