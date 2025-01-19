@@ -73,9 +73,13 @@ function LeetCode() {
                     </div>
 
                     <div class="info col-span-2 mt-[1rem] p-[1.5rem] rounded-card">
-                        <LeetCodeStats showFullStats={isFullStatsPage} />
-
-
+                        <div class="grid grid-cols-2">
+                            <p class="text-[#36AC4F] font-bold display-font text-[2rem]">YOUR LEETCODE STATS</p>
+                            <div class="ml-[3rem] text-[#1A8931] font-bold">
+                                <LeetCodeStats showFullStats={isFullStatsPage} />
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
 
