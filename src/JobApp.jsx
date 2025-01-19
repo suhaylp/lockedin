@@ -1,17 +1,18 @@
 import { Link } from "react-router-dom";
 
-import './css/output.css'
-import './css/Index.css'
-import './css/JobApp.css'
+import './css/Index.css';
+import './css/JobApp.css';
+import './css/output.css';
 
 // Images
-import logo from './assets/lockedin-logo.png'
-import sob from './assets/solo-sob.png'
-import clouds from './assets/orange-clouds.png'
+import logo from './assets/lockedin-logo.png';
+import clouds from './assets/orange-clouds.png';
+import sob from './assets/solo-sob.png';
 
+import ExternalAppEmbed from './tableAPI';
 
-function JobApp(){
-    return(
+function JobApp() {
+    return (
         <>
             <header class="mx-[10rem] mt-[1rem]">
                 <nav class="flex ">
@@ -40,7 +41,7 @@ function JobApp(){
                     </div>
 
                     <img src={sob} alt="Cartoon-styled blue owl raising one arm up in a wave, with its mouth wide open in a smile."
-                                            class="h-[20rem] relative left-[5rem] top-[-2rem]" />
+                        class="h-[20rem] relative left-[5rem] top-[-2rem]" />
                 </div>
 
                 <div class="">
@@ -61,6 +62,7 @@ function JobApp(){
 
                     <section class="info jobapp row-span-2 p-[1.5rem] rounded-card">
                     </section>
+                    <ExternalAppEmbed />
                 </div>
                 {/* <LeetCodeStats showFullStats={isFullStatsPage} /> */}
 
