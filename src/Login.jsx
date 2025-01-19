@@ -47,26 +47,9 @@ function Login(){
                             class="h-[3rem]" />
                     </Link>
 
-                    <Link to="/login" class="button light-blue-bg ml-auto">
+                    <Link to="/" class="button light-blue-bg ml-auto">
                         LOG IN
                     </Link>
-
-                    {/* {user ? (
-                        <div className="flex items-center gap-4">
-                            <p>Welcome, {user.name}</p>
-                            <button
-                                onClick={handleLogout}
-                                className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-700 transition"
-                            >
-                                Logout
-                            </button>
-                        </div>
-                    ) : (
-                        <GoogleLogin
-                            onSuccess={handleLoginSuccess}
-                            onError={handleLoginFailure}
-                        />
-                    )} */}
                 </nav>
             
             </header>

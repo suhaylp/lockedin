@@ -33,11 +33,15 @@ function SignUp(){
                     <form class="grid grid-rows-3">
                         <div class="grid grid-rows-2">
                             <label for="first-name">First Name</label>
-                            <input type="text" id="email" placeholder="Solo" />
+                            <input type="text" id="firstname" placeholder="Solo" />
                         </div>
                         <div class="grid grid-rows-2">
                             <label for="last-name">Last Name</label>
-                            <input type="text" id="email" placeholder="Lingo" />
+                            <input type="text" id="lastname" placeholder="Lingo" />
+                        </div>
+                        <div class="grid grid-rows-2">
+                            <label for="leetcode-user">Leetcode Username</label>
+                            <input type="text" id="leetcodeuser" placeholder="sololingo" />
                         </div>
                         <div class="grid grid-rows-2">
                             <label for="email">Email</label>
