@@ -9,7 +9,7 @@ import logo from './assets/lockedin-logo.png';
 import clouds from './assets/orange-clouds.png';
 import sob from './assets/solo-sob.png';
 
-import ExternalAppEmbed from './tableAPI';
+import DynamicScriptLoader from "./DynamicScriptLoader";
 
 function JobApp() {
     return (
@@ -54,6 +54,8 @@ function JobApp() {
 
             <div class="orange-strip"></div>
 
+
+
             <main class="relative px-[10rem] bg-gradient-to-b from-[#FF9B5E] to-[#FFD86D]">
                 <div class="p-[1.5rem] gap-x-[1.5rem]">
 
@@ -61,7 +63,7 @@ function JobApp() {
 
 
 
-                        <ExternalAppEmbed />
+                        <DynamicScriptLoader />
                     </section>
                 </div>
                 {/* <LeetCodeStats showFullStats={isFullStatsPage} /> */}

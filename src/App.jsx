@@ -29,7 +29,7 @@ function App() {
         <Route path="/" element={<Index />}></Route>
         <Route path="leetcode" element={<LeetCode />}></Route>
         <Route path="login" element={<Login />}></Route>
-        <Route path="job-app" element={<JobApp />}></Route>
+        <Route path="jobapp" element={<JobApp />}></Route>
       </Routes>
     </BrowserRouter>
   );
