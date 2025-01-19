@@ -48,9 +48,9 @@ const LeetCodeStats = ({ showFullStats }) => { // Destructure showFullStats from
       )}
 
       {/* Always show these stats */}
-      <p>Locked In Streak: 0 days</p>
-      <p>Job Applications Submitted: 0</p>
-      <p>Leetcode Questions Solved: {stats.totalSolved}</p>
+      <p>&#128293; Locked In Streak: 0 days</p>
+      <p>&#x1F4BC; Job Applications Submitted: 0</p>
+      <p>&#x1F4BB; Leetcode Questions Solved: {stats.totalSolved}</p>
     </div>
   );
 };
