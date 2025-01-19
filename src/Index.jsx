@@ -7,7 +7,7 @@ import './css/output.css';
 import logo from './assets/lockedin-logo.png';
 import pfp from './assets/placeholder-pfp.jpg';
 import wave from './assets/solo-wave.png';
-import LeetCodeStats from './LeetCodeStats';
+import LeetCodeStats from './LeetCodeStats.jsx';
 
 function Index() {
     const isFullStatsPage = false;
