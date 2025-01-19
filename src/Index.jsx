@@ -6,7 +6,7 @@ import './css/output.css';
 // Images
 import logo from './assets/lockedin-logo.png';
 import pfp from './assets/placeholder-pfp.jpg';
-import wave from './assets/solo-wave.png';
+import wave from './assets/solo-wave-clouds.png';
 import LeetCodeStats from './LeetCodeStats.jsx';
 
 function Index() {
