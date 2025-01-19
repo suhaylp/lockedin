@@ -8,6 +8,7 @@ import {jwtDecode} from 'jwt-decode';
 
 import logo from './assets/lockedin-logo.png'
 import clouds from './assets/clouds.png'
+import coop from './assets/where-coop.png'
 
 function Login(){
     const [user, setUser] = useState(null);
@@ -51,13 +52,19 @@ function Login(){
                         LOG IN
                     </Link>
                 </nav>
-            
+
+                <div class="">
+                    <img src={clouds}
+                        class="clouds" />
+                </div>
+
+                <div class="clouds"></div>
             </header>
 
             <div class="white-strip"></div>
 
-            <main class="relative px-[10rem] bg-gradient-to-b from-[#FFFFFF] to-[#86C3F5]">
-                <section class="bg-[#88C7E8] rounded-2xl grid grid-cols-1 mx-[15rem] p-[2rem]">
+            <main class="bg-gradient-to-b from-[#FFFFFF] to-[#86C3F5] mt-[25rem]">
+                <section class="absolute top-[16rem] left-[27rem] bg-[#88C7E8] rounded-2xl grid grid-cols-1 p-[2rem] z-10">
                     <h1 class="white-text text-center font-bold text-[2.25rem]">
                         LOG IN
                     </h1>
@@ -74,9 +81,11 @@ function Login(){
                             <input type="text" id="password" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;"/>
                         </div>
 
-                        <button class="text-center button dark-blue-bg mt-[1rem]">
+                        <button class="text-center button dark-blue-bg my-[1rem]">
                             LOG IN
                         </button>
+
+                        
                     </form>
                     
                 
@@ -101,7 +110,7 @@ function Login(){
 
                     <br></br>
                     <h1 class="white-blue text-center font-bold text-[1rem]">
-                    <a href="/signup">  DON'T HAVE AN ACCOUNT? SIGN UP!</a>
+                    <a href="/signup" class="text-[#0268C8]">  DON'T HAVE AN ACCOUNT? <span class="underline">SIGN UP!</span></a>
                     </h1>
 
 
@@ -109,6 +118,9 @@ function Login(){
                     
 
                 </section>
+
+                <img src={coop} alt="Solo getting angry that you don't have a coop" 
+                class="absolute left-[20vw] z-0 h-[30rem] top-[9rem]"/>
             </main>
 
             
