@@ -674,6 +674,10 @@ video {
   border-width: 0.2rem;
 }
 
+.border-\[0\] {
+  border-width: 0;
+}
+
 .border-\[\#FFFFFF\] {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));

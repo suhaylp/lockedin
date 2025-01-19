@@ -6,7 +6,7 @@ import './css/JobApp.css'
 
 // Images
 import logo from './assets/lockedin-logo.png'
-import sob from './assets/solo-sob-clouds.png'
+import sob from './assets/solo-sob.png'
 import clouds from './assets/orange-clouds.png'
 
 

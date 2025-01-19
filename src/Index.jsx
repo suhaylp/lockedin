@@ -69,7 +69,7 @@ function Index() {
                     <section class="bg-[#FFD737] row-span-2 p-[1.5rem] rounded-card">
                         <h2 class="font-semibold display-font text-center text-[#FFFFFF]">YOUR STATS</h2>
                         <img src={pfp}
-                            class="rounded-[50%] w-[10rem] mx-auto border-[0.2rem] border-[#FFFFFF] mt-[0.5rem]" />
+                            class="rounded-[50%] w-[10rem] mx-auto border-[0] mt-[0.5rem]" />
                         <p class="text-[2rem] font-semibold display-font text-center text-[#EE9B00]">
                             Yonka
                         </p>
