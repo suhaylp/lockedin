@@ -7,7 +7,7 @@ import './css/output.css';
 import logo from './assets/lockedin-logo.png';
 import pfp from './assets/placeholder-pfp.jpg';
 import wave from './assets/solo-wave-clouds.png';
-import clouds from './assets/white-clouds.png';
+import clouds from './assets/clouds.png';
 import LeetCodeStats from './LeetCodeStats.jsx';
 
 function Index() {
@@ -21,7 +21,7 @@ function Index() {
                             class="h-[3rem]" />
                     </Link>
 
-                    <Link to="/" class="button light-blue-bg ml-auto">
+                    <Link to="login" class="button light-blue-bg ml-auto">
                         LOG IN
                     </Link>
                 </nav>
@@ -57,11 +57,11 @@ function Index() {
             <main class="relative px-[10rem] bg-gradient-to-b from-[#FFFFFF] via-[#C3E1FA] to-[#86C3F5] from-50%">
                 <div class="grid grid-cols-2 p-[1.5rem] gap-x-[1.5rem] pt-[5rem]">
                     <div class="grid gap-y-[1rem]">
-                        <section class="info rounded-card">
+                        <section class="info home rounded-card">
                             Lorem ipsum
                         </section>
 
-                        <section class="info rounded-card">
+                        <section class="info home rounded-card">
                             Lorem ipsum
                         </section>
                     </div>
@@ -73,6 +73,8 @@ function Index() {
                         <p class="text-[2rem] font-semibold display-font text-center text-[#EE9B00]">
                             Yonka
                         </p>
+
+
                         <LeetCodeStats showFullStats={isFullStatsPage}/>
 
 

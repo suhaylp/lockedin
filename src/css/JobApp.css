@@ -11,8 +11,8 @@
     z-index:1;
 }
 
-.purple-strip{
-    background-color:#4756A3;
+.orange-strip{
+    background-color:#FF9B5E;
     height:5rem;
     margin-top:-10.5rem;
     z-index:10;
@@ -22,10 +22,10 @@ main{
     min-height:100vh;
 }
 
-.info{
-    background-color:#BDFFA5;
+.info.jobapp{
+    background-color:#FFFFFF;
 }
 
 body{
-    background-color:#2B1F6D;
+    background-color:#FFD86D;
 }

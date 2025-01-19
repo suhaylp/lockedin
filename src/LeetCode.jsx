@@ -17,7 +17,7 @@ function LeetCode() {
         <>
             <header class="mx-[10rem] mt-[1rem]">
                 <nav class="flex ">
-                    <Link to="/">
+                    <Link to="login">
                         <img src={logo} alt="Home"
                             class="h-[3rem]" />
                     </Link>

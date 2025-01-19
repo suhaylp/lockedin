@@ -7,10 +7,6 @@
     font-family:'Inter','sans-serif';
 }
 
-body{
-    background-color:#B8DEF2;
-}
-
 div ~ .clouds{
     overflow:hidden;
 }
@@ -57,7 +53,7 @@ h1, .display-font, #username{
     margin-left:auto;
 }
 
-.info{
+.info.home{
     background-color:#FFD737;
 }
 
@@ -96,4 +92,8 @@ h1, .display-font, #username{
     background-color:#FFC200;
     transition: background-color 0.2s;
 
+}
+
+body{
+    background-color:#B8DEF2;
 }
