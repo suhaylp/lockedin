@@ -10,6 +10,7 @@ import wave from './assets/solo-wave.png';
 import LeetCodeStats from './LeetCodeStats';
 
 function Index() {
+    const isFullStatsPage = false;
     return (
         <>
             <header class="mx-[10rem] mt-[1rem]">
@@ -61,7 +62,8 @@ function Index() {
                             class="rounded-[50%] w-[10rem] mx-auto border-[0.2rem] border-[#FFFFFF] mt-[0.5rem]" />
                         <p class="text-[1.5rem] font-semibold display-font text-[#88C7E8]">
                             Yonka
-                            <LeetCodeStats />
+                            <LeetCodeStats showFullStats={isFullStatsPage} />
+
                         </p>
 
                     </section>
