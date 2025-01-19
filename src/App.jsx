@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./Index.jsx";
 
 import './css/App.css'
+import JobApp from './JobApp.jsx';
 import LeetCode from './LeetCode.jsx';
 import Login from './Login.jsx'
 
@@ -15,6 +16,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Index />}></Route>
+        <Route path="jobapp" element={<JobApp /> }></Route>
         <Route path="leetcode" element={<LeetCode />}></Route>
         <Route path="login" element={<Login />}></Route>
       </Routes>
