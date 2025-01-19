@@ -46,7 +46,7 @@ h1, .display-font, #username{
     background-color: #29A3EF;
 }
 
-.light-blue-bg:hover{
+.dark-blue-bg:hover, .dark-blue-bg:focus, .light-blue-bg:hover, .light-blue-bg:focus{
     background-color:#FFC200;
     transition: background-color 0.2s;
 
