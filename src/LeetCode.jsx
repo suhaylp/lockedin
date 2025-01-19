@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
 
+import './css/Index.css';
 import './css/LeetCode.css';
 import './css/output.css';
 
 // Images
 import logo from './assets/lockedin-logo.png';
-import pfp from './assets/placeholder-pfp.jpg';
-import laser from './assets/solo-laser-eyes.png';
+import laser from './assets/solo-laser-eyes-clouds.png';
+import hip from './assets/solo-hip.png';
+import computer from './assets/solo-coding.png';
+import clouds from './assets/purple-clouds.png';
 import LeetCodeStats from './LeetCodeStats';
 
 function LeetCode() {
@@ -20,8 +23,7 @@ function LeetCode() {
                             class="h-[3rem]" />
                     </Link>
 
-
-                    <Link to="/" class="button light-blue-bg ml-auto">
+                    <Link to="/login" class="button light-blue-bg ml-auto">
                         LOG IN
                     </Link>
                 </nav>
@@ -29,63 +31,58 @@ function LeetCode() {
                 <div class="flex relative mt-[5rem]">
                     <div>
                         {/* Heading */}
-                        <h1 class="font-semibold text-[2.5rem]">
-                            Leet&nbsp;
-                            <span id="username" class="dark-blue">
-                                Code</span>
+                        <h1 class="font-semibold text-[2.5rem] text-[#FFFFFF]">
+                            LeetCode&nbsp;
+                            <span id="username" class="light-blue">
+                                Tracker</span>
                         </h1>
                         {/* Subheading */}
-                        <p>
-                            You’re not done until the green check <span class="font-bold">says so</span>
+                        <p class="text-[#FFFFFF] mb-[3rem]">
+                            You’re not done until the green check <span class="font-bold">says so</span>.
                         </p>
+
+                        <a href="https://leetcode.com/" class="button light-blue-bg">GO TO LEETCODE</a>
                     </div>
 
-                    <img src={laser} alt="Cartoon-styled blue owl with yellow lasers shooting from his eyes that are sparkling."
-                        class="h-[16rem] left-auto relative top-[-2rem]" />
+                    <img src={laser} alt="Cartoon-styled blue owl raising one arm up in a wave, with its mouth wide open in a smile."
+                        class="h-[20rem] relative left-[5rem] top-[-2rem]" />
                 </div>
+
+                <div class="">
+                    <img src={clouds}
+                        class="clouds" />
+                </div>
+
+                <div class="clouds"></div>
             </header>
 
+            <div class="purple-strip"></div>
 
-
-            <main class="relative top-[-4rem] bg-[#88C7E8] px-[10rem]">
-                <div class="grid grid-cols-2 p-[1.5rem] gap-x-[1.5rem]">
-                    <div class="grid gap-y-[1rem]">
-
+            <main class="relative px-[10rem] bg-gradient-to-b from-[#4756A2] to-[#2F135F]">
+                <div class="grid grid-cols-2 gap-x-[1.5rem] pt-[5rem]">
+                    <div class="relative info grid gap-y-[1rem] p-[1.5rem] rounded-card h-[12rem]">
+                        <p class="text-[#36AC4F] font-bold text-[1.25rem]/[1.25rem] ml-[0.75rem] pt-[2rem]"><span class="block display-font text-[3.5rem]">9</span> <span class="block mt-[1.5rem]">SOLVED</span><span class="block">TODAY!</span></p>
+                        <img src={hip} alt="Blue cartoon owl with round glasses holding a Google job offer" 
+                            class="h-[9rem] absolute right-0 bottom-[0] pr-[3rem]"/>
                     </div>
 
-                    <section class="bg-[#FFFFFF] row-span-2 p-[1.5rem] rounded-card">
-                        <h2 class="font-semibold display-font text-center">YOUR STATS</h2>
-                        <img src={pfp}
-                            class="rounded-[50%] w-[10rem] mx-auto border-[0.2rem] border-[#FFFFFF] mt-[0.5rem]" />
-                        <p class="text-[1.5rem] font-semibold display-font text-[#88C7E8]">
-                            Yonka
+                    <div class="relative info grid gap-y-[1rem] p-[1.5rem] rounded-card h-[12rem]">
+                        <p class="text-[#36AC4F] font-bold text-[1.25rem]/[1.25rem] ml-[0.75rem] pt-[2rem]"><span class="block display-font text-[3.5rem]">89</span> <span class="block mt-[1.5rem]">SOLVED</span><span class="block">IN TOTAL!</span></p>
+                        <img src={computer} alt="Blue cartoon owl with round glasses holding a Google job offer" 
+                            class="h-[8.75rem] absolute right-0 bottom-[0] rounded-xl"/>
+                    </div>
 
-                            <LeetCodeStats showFullStats={isFullStatsPage} />
-
-                        </p>
-                    </section>
-                </div>
-
-
-                <div class="blue-rectangle absolute top-[50%] left-[10%] w-[300px] h-[150px] rounded-[20px] bg-[#1E40AF] z-10">
-                    <div class="grid-container">
-                        <div class="info">
-
-                            <div clas="subinfo">
-                                <h4> 3 </h4>
-                                <h6> SOLVED TODAY </h6>
-                            </div>
-
-                        </div>
-
-                        <div class="info">
-                            <div clas="subinfo">
-                                <h4> 123 </h4>
-                                <h6> TOTAL SOLVED </h6>
+                    <div class="info col-span-2 mt-[1rem] p-[1.5rem] rounded-card">
+                        <div class="grid grid-cols-2">
+                            <p class="text-[#36AC4F] font-bold display-font text-[2rem]">YOUR LEETCODE STATS</p>
+                            <div class="ml-[3rem] text-[#1A8931] font-bold">
+                                <LeetCodeStats showFullStats={isFullStatsPage} />
                             </div>
                         </div>
+                        
                     </div>
                 </div>
+
 
             </main>
 
