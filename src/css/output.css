@@ -731,6 +731,12 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
+.from-\[\#4756A2\] {
+  --tw-gradient-from: #4756A2 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(71 86 162 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .from-\[\#FFFFFF\] {
   --tw-gradient-from: #FFFFFF var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
@@ -741,9 +747,18 @@ video {
   --tw-gradient-from-position: 50%;
 }
 
+.via-\[\#424893\] {
+  --tw-gradient-to: rgb(66 72 147 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #424893 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
 .via-\[\#C3E1FA\] {
   --tw-gradient-to: rgb(195 225 250 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #C3E1FA var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.to-\[\#2F135F\] {
+  --tw-gradient-to: #2F135F var(--tw-gradient-to-position);
 }
 
 .to-\[\#86C3F5\] {
@@ -795,55 +810,19 @@ video {
   font-weight: 600;
 }
 
-.text-\[\#0268C8\] {
-  --tw-text-opacity: 1;
-  color: rgb(2 104 200 / var(--tw-text-opacity, 1));
-}
-
 .text-\[\#88C7E8\] {
   --tw-text-opacity: 1;
   color: rgb(136 199 232 / var(--tw-text-opacity, 1));
 }
 
-.text-\[\#C58600\] {
+.text-\[\#EE9B00\] {
   --tw-text-opacity: 1;
-  color: rgb(197 134 0 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#ff\] {
-  color: #ff;
-}
-
-.text-\[\#ffffff\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#fffff\] {
-  color: #fffff;
-}
-
-.text-\[\#\] {
-  color: #;
-}
-
-.text-\[\#F\] {
-  color: #F;
+  color: rgb(238 155 0 / var(--tw-text-opacity, 1));
 }
 
 .text-\[\#FFFFFF\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#FFF\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#EE9B00\] {
-  --tw-text-opacity: 1;
-  color: rgb(238 155 0 / var(--tw-text-opacity, 1));
 }
 
 /* Run this command to build tailwind
