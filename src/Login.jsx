@@ -7,6 +7,7 @@ import { GoogleLogin } from '@react-oauth/google';
 import {jwtDecode} from 'jwt-decode';
 
 import logo from './assets/lockedin-logo.png'
+import clouds from './assets/clouds.png'
 
 function Login(){
     const [user, setUser] = useState(null);
@@ -67,10 +68,12 @@ function Login(){
                         />
                     )} */}
                 </nav>
-
+            
             </header>
 
-            <main class="mx-[10rem] mt-[5rem]">
+            <div class="white-strip"></div>
+
+            <main class="relative px-[10rem] bg-gradient-to-b from-[#FFFFFF] to-[#86C3F5]">
                 <section class="bg-[#88C7E8] rounded-2xl grid grid-cols-1 mx-[15rem] p-[2rem]">
                     <h1 class="white-text text-center font-bold text-[2.25rem]">
                         LOG IN

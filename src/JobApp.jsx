@@ -30,9 +30,9 @@ function JobApp() {
                     <div>
                         {/* Heading */}
                         <h1 class="font-semibold text-[2.5rem] text-[#FFFFFF]">
-                            Leet
+                            Application&nbsp;
                             <span id="username" class="dark-blue">
-                                Code</span>
+                                Tracker</span>
                         </h1>
                         {/* Subheading */}
                         <p class="text-[#FFFFFF]">
@@ -62,7 +62,9 @@ function JobApp() {
 
                     {/* <section class="info jobapp row-span-2 p-[1.5rem] rounded-card">
                     </section> */}
+                    <section>
                     <ExternalAppEmbed />
+                    </section>
                 </div>
                 {/* <LeetCodeStats showFullStats={isFullStatsPage} /> */}
 

@@ -109,7 +109,7 @@ function Index() {
                     <div class="grid grid-rows-2 gap-y-[1rem]">
                         <Link to="/jobapp">
                             <div class="relative info home rounded-card p-[1.5rem] h-[12rem] hover:scale-[105%] hover:drop-shadow-lg transition-transform">
-                                <p class="text-[#CD7900] font-bold text-[1.25rem]/[1.25rem] text-right"><span class="block">HAVE YOU APPLIED TO</span> <span class="block">ANY JOBS TODAY?</span></p>
+                                <p class="text-[#CD7900] font-bold text-[1.25rem]/[1.25rem] text-right"><span class="block display-font">HAVE YOU APPLIED TO</span> <span class="block display-font">ANY JOBS TODAY?</span></p>
                                 <img src={track_jobs} alt="Blue cartoon owl with round glasses holding a Google job offer" 
                                     class="h-[10rem] absolute bottom-[0]"/>
                             </div>
@@ -118,7 +118,7 @@ function Index() {
                         <Link to="/leetcode">
                             <div class="relative info home rounded-card p-[1.5rem] h-[12rem]
                             hover:scale-[105%] hover:drop-shadow-lg transition-transform">
-                                <p class="text-[#CD7900] font-bold text-[1.25rem]/[1.25rem]"><span class="block">HAVE YOU PRACTICED</span> <span class="block">YOUR LEETCODE TODAY?</span></p>
+                                <p class="text-[#CD7900] font-bold text-[1.25rem]/[1.25rem] "><span class="block display-font">HAVE YOU PRACTICED</span> <span class="block display-font">YOUR LEETCODE TODAY?</span></p>
                                 <img src={track_leetcode} alt="Blue cartoon owl with round glasses typing on a computer"
                                     class="h-[7rem] absolute right-0 bottom-[0] rounded-xl" />
                             </div>
