@@ -56,6 +56,11 @@ function JobApp() {
 
 
 
+            <main class="relative px-[10rem] bg-gradient-to-b from-[#FF9B5E] via-[#FFB063] to-[#FFD86D] from-50%">
+                <div class="grid grid-cols-1 p-[1.5rem] gap-x-[1.5rem]">
+                    {/* <div class="info jobapp grid gap-y-[1rem]">
+
+                    </div> */}
             <main class="relative px-[10rem] bg-gradient-to-b from-[#FF9B5E] to-[#FFD86D]">
                 <div class="p-[1.5rem] gap-x-[1.5rem]">
 
@@ -64,6 +69,10 @@ function JobApp() {
 
 
                         <DynamicScriptLoader />
+                    {/* <section class="info jobapp row-span-2 p-[1.5rem] rounded-card">
+                    </section> */}
+                    <section>
+                    <ExternalAppEmbed />
                     </section>
                 </div>
                 {/* <LeetCodeStats showFullStats={isFullStatsPage} /> */}
