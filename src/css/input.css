@@ -17,3 +17,7 @@ npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch
         @apply rounded-xl;
     }
 }
+
+*{
+    font-family:'Inter','sans-serif';
+}
