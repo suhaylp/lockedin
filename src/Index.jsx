@@ -15,6 +15,7 @@ import track_leetcode from './assets/solo-coding.png'
 import track_jobs from './assets/solo-google-offer.png';
 
 import LeetCodeStats from './LeetCodeStats.jsx';
+import SassyReminder from './gptIntegration.jsx';
 
 function Index() {
     const [user, setUser] = useState(null);
@@ -87,6 +88,7 @@ function Index() {
                         {/* Subheading */}
                         <p>
                             Nice to meet you! I'm here to help you <span class="font-bold">lock in</span> and get a job!
+                            {/* <SassyReminder/> */}
                         </p>
                     </div>
 
