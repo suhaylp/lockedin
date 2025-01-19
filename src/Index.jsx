@@ -1,15 +1,25 @@
 import { Link } from "react-router-dom";
+//import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import GoogleSignIn from './GoogleSignIn';
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 
 import './css/Index.css';
 import './css/output.css';
+
+<meta name="google-signin-client_id" content="515157876394-233k85q6uq24m1iuuku3idjmspgqnko9.apps.googleusercontent.com"></meta>
+
 
 // Images
 import logo from './assets/lockedin-logo.png';
 import pfp from './assets/placeholder-pfp.jpg';
 import wave from './assets/solo-wave.png';
 import LeetCodeStats from './LeetCodeStats';
+//import GoogleSignIn from "./auth";
 
 function Index() {
+
+    
     return (
         <>
             <header class="mx-[10rem] mt-[1rem]">
@@ -19,10 +29,12 @@ function Index() {
                             class="h-[3rem]" />
                     </Link>
 
-                    <Link to="/">
-                        <p>LOG IN</p>
-                    </Link>
+
+                    
+                    <div><GoogleSignIn /></div>
                 </nav>
+                
+        
 
                 <div class="flex relative mt-[5rem]">
                     <div>
