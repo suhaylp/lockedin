@@ -27,6 +27,18 @@ h1, .display-font, #username{
     background-color:#FFFFFF;
 }
 
+.blue-rectangle {
+    position: absolute;
+    top: 50%;  /* Adjust vertical position */
+    left: 10%; /* Adjust horizontal position */
+    width: 350px; /* Set desired width */
+    height: 125px; /* Set desired height */
+    border-radius: 20px; /* Rounded corners */
+    background-color: #D1E9F5; /* Blue color */
+    z-index: 10; /* Layer it on top */
+    transform: translateY(-190%); /* Center vertically */
+}
+
 .button{
     font-family:'Fredoka','sans-serif';
     font-weight:bold;
