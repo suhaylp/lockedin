@@ -6,6 +6,7 @@ import Index from "./Index.jsx";
 import JobApp from './JobApp.jsx';
 import LeetCode from './LeetCode.jsx';
 import Login from './Login.jsx';
+import ScrollToTop from "./ScrollToTop.jsx";
 
 import './css/App.css';
 
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" 
           element={<WithBackground Component={Index} color="#B8DEF2" />} />
