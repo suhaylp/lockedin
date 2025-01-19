@@ -570,6 +570,10 @@ video {
   left: 10%;
 }
 
+.left-\[5rem\] {
+  left: 5rem;
+}
+
 .left-auto {
   left: auto;
 }
@@ -641,6 +645,10 @@ video {
   height: 16rem;
 }
 
+.h-\[20rem\] {
+  height: 20rem;
+}
+
 .h-\[3rem\] {
   height: 3rem;
 }
@@ -709,9 +717,37 @@ video {
   background-color: rgb(136 199 232 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#FFD737\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 215 55 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#FFFFFF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.from-\[\#FFFFFF\] {
+  --tw-gradient-from: #FFFFFF var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-50\% {
+  --tw-gradient-from-position: 50%;
+}
+
+.via-\[\#C3E1FA\] {
+  --tw-gradient-to: rgb(195 225 250 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #C3E1FA var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.to-\[\#86C3F5\] {
+  --tw-gradient-to: #86C3F5 var(--tw-gradient-to-position);
 }
 
 .p-\[1\.5rem\] {
@@ -725,6 +761,10 @@ video {
 .px-\[10rem\] {
   padding-left: 10rem;
   padding-right: 10rem;
+}
+
+.pt-\[5rem\] {
+  padding-top: 5rem;
 }
 
 .text-center {
@@ -743,6 +783,10 @@ video {
   font-size: 2.5rem;
 }
 
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -751,9 +795,55 @@ video {
   font-weight: 600;
 }
 
+.text-\[\#0268C8\] {
+  --tw-text-opacity: 1;
+  color: rgb(2 104 200 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#88C7E8\] {
   --tw-text-opacity: 1;
   color: rgb(136 199 232 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#C58600\] {
+  --tw-text-opacity: 1;
+  color: rgb(197 134 0 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#ff\] {
+  color: #ff;
+}
+
+.text-\[\#ffffff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#fffff\] {
+  color: #fffff;
+}
+
+.text-\[\#\] {
+  color: #;
+}
+
+.text-\[\#F\] {
+  color: #F;
+}
+
+.text-\[\#FFFFFF\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#FFF\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#EE9B00\] {
+  --tw-text-opacity: 1;
+  color: rgb(238 155 0 / var(--tw-text-opacity, 1));
 }
 
 /* Run this command to build tailwind

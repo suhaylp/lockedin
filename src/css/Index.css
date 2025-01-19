@@ -7,6 +7,40 @@
     font-family:'Inter','sans-serif';
 }
 
+body{
+    background-color:#B8DEF2;
+}
+
+div ~ .clouds{
+    overflow:hidden;
+}
+
+.clouds{
+    position:absolute;
+    height:65vh;
+    width:auto;
+    object-fit:cover;
+    left:0rem;
+    top:2rem;
+    z-index:-1;
+}
+
+.wave{
+    z-index:1;
+}
+
+.white-strip{
+    background-color:#FFFFFF;
+    height:5rem;
+    margin-top:-10.5rem;
+    z-index:10;
+}
+
+main{
+    background-color:linear-gradient(to bottom, #FFFFFF, #86C3F5);
+    min-height:100vh;
+}
+
 h1, .display-font, #username{
     font-family:'Fredoka','sans-serif';
 }
@@ -24,7 +58,7 @@ h1, .display-font, #username{
 }
 
 .info{
-    background-color:#FFFFFF;
+    background-color:#FFD737;
 }
 
 .blue-rectangle {
