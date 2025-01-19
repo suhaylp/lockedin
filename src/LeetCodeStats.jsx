@@ -40,7 +40,6 @@ const LeetCodeStats = ({ showFullStats }) => { // Destructure showFullStats from
       {/* Show full stats conditionally */}
       {showFullStats && (
         <>
-          <p>Leetcode Questions Solved: {stats.totalSolved}</p>
           <p>Acceptance Rate: {stats.acceptanceRate}%</p>
           <p>Ranking: {stats.ranking}</p>
           <p>Contribution Points: {stats.contributionPoints}</p>
@@ -49,8 +48,9 @@ const LeetCodeStats = ({ showFullStats }) => { // Destructure showFullStats from
       )}
 
       {/* Always show these stats */}
-      <p>Job Applications Submitted: 0</p>
       <p>Locked In Streak: 0 days</p>
+      <p>Job Applications Submitted: 0</p>
+      <p>Leetcode Questions Solved: {stats.totalSolved}</p>
     </div>
   );
 };
