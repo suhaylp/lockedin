@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 
 import './css/output.css'
-import './css/Index.css'
+import './css/JobApp.css'
+
 
 // Images
 import logo from './assets/lockedin-logo.png'
@@ -16,14 +17,14 @@ function JobApp(){
     return(
         <>
             <header class="mx-[10rem] mt-[1rem]"> 
-                <nav class="flex ">
+            <nav class="flex ">
                     <Link to="/">
                         <img src={logo} alt="Home"
                             class="h-[3rem]" />
                     </Link>
 
-                    <Link to="/">
-                        <p>LOG IN</p>
+                    <Link to="/" class="button light-blue-bg ml-auto">
+                        LOG IN
                     </Link>
                 </nav>
 
@@ -49,7 +50,7 @@ function JobApp(){
     
 
             <main class="relative top-[-4rem] bg-[#88C7E8] px-[10rem]">
-                <div class="grid grid-cols-2 p-[1.5rem] gap-x-[1.5rem]">
+                <div class="grid grid-cols-[70%_30%] p-[1.5rem] gap-x-[1.5rem]">
                     <div class="grid gap-y-[1rem]">
                         
                     </div>
@@ -64,7 +65,25 @@ function JobApp(){
                     </section>
                 </div>
 
-                <div class="blue-rectangle absolute top-[50%] left-[10%] w-[300px] h-[150px] rounded-[20px] bg-[#1E40AF] z-10"></div>
+                <div class="blue-rectangle absolute top-[50%] left-[10%] w-[300px] h-[150px] rounded-[20px] bg-[#1E40AF] z-10">
+                    <div class="grid-container">
+                        <div class="info">
+
+                            <div clas="subinfo">
+                                <h4> 3 </h4>
+                                <h6> APPLIED TODAY </h6>
+                            </div>
+
+                        </div>
+
+                        <div class="info">
+                            <div clas="subinfo">
+                                <h4> 123 </h4>
+                                <h6> TOTAL APPS </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </main>
 

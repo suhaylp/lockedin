@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import './css/Index.css';
+import './css/LeetCode.css';
 import './css/output.css';
 
 // Images
@@ -20,8 +20,9 @@ function LeetCode() {
                             class="h-[3rem]" />
                     </Link>
 
-                    <Link to="/">
-                        <p>LOG IN</p>
+
+                    <Link to="/" class="button light-blue-bg ml-auto">
+                        LOG IN
                     </Link>
                 </nav>
 
@@ -35,7 +36,7 @@ function LeetCode() {
                         </h1>
                         {/* Subheading */}
                         <p>
-                            You’re not done until the green check <span class="font-bold">says so</span>.
+                            You’re not done until the green check <span class="font-bold">says so</span>
                         </p>
                     </div>
 
@@ -65,7 +66,26 @@ function LeetCode() {
                     </section>
                 </div>
 
-                <div class="blue-rectangle absolute top-[50%] left-[10%] w-[300px] h-[150px] rounded-[20px] bg-[#1E40AF] z-10"></div>
+
+                <div class="blue-rectangle absolute top-[50%] left-[10%] w-[300px] h-[150px] rounded-[20px] bg-[#1E40AF] z-10">
+                    <div class="grid-container">
+                        <div class="info">
+
+                            <div clas="subinfo">
+                                <h4> 3 </h4>
+                                <h6> SOLVED TODAY </h6>
+                            </div>
+
+                        </div>
+
+                        <div class="info">
+                            <div clas="subinfo">
+                                <h4> 123 </h4>
+                                <h6> TOTAL SOLVED </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </main>
 

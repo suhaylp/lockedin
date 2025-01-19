@@ -7,6 +7,10 @@
     font-family:'Inter','sans-serif';
 }
 
+body{
+    background-color: #B8DEF2;
+}
+
 h1, .display-font, #username{
     font-family:'Fredoka','sans-serif';
 }
@@ -23,20 +27,17 @@ h1, .display-font, #username{
     margin-left:auto;
 }
 
-.info{
-    background-color:#FFFFFF;
-}
-
 .blue-rectangle {
     position: absolute;
-    top: 50%;  /* Adjust vertical position */
+    top: 0%;  /* Adjust vertical position */
     left: 10%; /* Adjust horizontal position */
     width: 350px; /* Set desired width */
     height: 125px; /* Set desired height */
     border-radius: 20px; /* Rounded corners */
     background-color: #D1E9F5; /* Blue color */
     z-index: 10; /* Layer it on top */
-    transform: translateY(-190%); /* Center vertically */
+    margin-top: -3.90625rem;  /* 62.5px converted to rem */
+    padding-bottom: 9rem;
 }
 
 .button{
@@ -49,7 +50,7 @@ h1, .display-font, #username{
 }
 
 .dark-blue-bg{
-    color:#FFFFFF;
+    color:#FFFFFF; 
     background-color: #0268C8;
 }
 
@@ -62,4 +63,47 @@ h1, .display-font, #username{
     background-color:#FFC200;
     transition: background-color 0.2s;
 
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 2rem;
+}
+
+.info{
+    background-color: #FFD737; /* Blue color */
+
+}
+
+h4, h6{
+    font-family:'Inter','sans-serif';
+    color: #0268C8;
+}
+
+h6{
+    padding: 0.3rem;
+}
+
+h4{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+/* Navigation Link Styles */
+.nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1E40AF; /* Navy Blue */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #E0F2FE; /* Light Blue */
+    color: #0F172A; /* Darker Navy */
 }

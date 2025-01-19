@@ -44,7 +44,7 @@ function Index() {
                 </div>
             </header>
 
-            <main class="relative top-[-4rem] bg-[#88C7E8] px-[10rem]">
+            <main class="relative top-[-4rem] bg-[#B8DEF2] px-[10rem]">
                 <div class="grid grid-cols-2 p-[1.5rem] gap-x-[1.5rem]">
                     <div class="grid gap-y-[1rem]">
                         <section class="info rounded-card">
@@ -56,11 +56,11 @@ function Index() {
                         </section>
                     </div>
 
-                    <section class="bg-[#FFFFFF] row-span-2 p-[1.5rem] rounded-card">
+                    <section class="bg-[#FFD737] row-span-2 p-[1.5rem] rounded-card">
                         <h2 class="font-semibold display-font text-center">YOUR STATS</h2>
                         <img src={pfp}
                             class="rounded-[50%] w-[10rem] mx-auto border-[0.2rem] border-[#FFFFFF] mt-[0.5rem]" />
-                        <p class="text-[1.5rem] font-semibold display-font text-[#88C7E8]">
+                        <p class="text-[1.5rem] font-semibold display-font text-[#000000]">
                             Yonka
                             <LeetCodeStats showFullStats={isFullStatsPage} />
 
