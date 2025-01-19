@@ -6,6 +6,8 @@ import Index from "./Index.jsx";
 import JobApp from './JobApp.jsx';
 import LeetCode from './LeetCode.jsx';
 import Login from './Login.jsx';
+import SignUp from './SignUp.jsx';
+
 
 import './css/App.css';
 
@@ -37,6 +39,10 @@ function App() {
         <Route
           path="login"
           element={<WithBackground Component={Login} color="#B8DEF2" />}
+        />
+        <Route
+          path="signup"
+          element={<WithBackground Component={SignUp} color="#B8DEF2" />}
         />
       </Routes>
     </BrowserRouter>
