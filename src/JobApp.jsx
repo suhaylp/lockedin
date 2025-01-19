@@ -55,16 +55,13 @@ function JobApp() {
             <div class="orange-strip"></div>
 
             <main class="relative px-[10rem] bg-gradient-to-b from-[#FF9B5E] to-[#FFD86D]">
-                <div class="grid grid-cols-2 p-[1.5rem] gap-x-[1.5rem]">
-                    <div class="info jobapp grid gap-y-[1rem]">
-
-                    </div>
+                <div class="p-[1.5rem] gap-x-[1.5rem]">
 
                     <section class="info jobapp row-span-2 p-[1.5rem] rounded-card">
-                    
 
-                   
-                    <ExternalAppEmbed />
+
+
+                        <ExternalAppEmbed />
                     </section>
                 </div>
                 {/* <LeetCodeStats showFullStats={isFullStatsPage} /> */}
