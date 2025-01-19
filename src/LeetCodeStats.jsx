@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 
-const LeetCodeStats = ({showFullStats}) => {
+const LeetCodeStats = ({ showFullStats }) => { // Destructure showFullStats from props
   const [stats, setStats] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -37,7 +37,7 @@ const LeetCodeStats = ({showFullStats}) => {
 
   return (
     <div>
-      {/* Show conditionally */}
+      {/* Show full stats conditionally */}
       {showFullStats && (
         <>
           <p>Leetcode Questions Solved: {stats.totalSolved}</p>
@@ -48,7 +48,7 @@ const LeetCodeStats = ({showFullStats}) => {
         </>
       )}
 
-      {/* Always show */}
+      {/* Always show these stats */}
       <p>Job Applications Submitted: 0</p>
       <p>Locked In Streak: 0 days</p>
     </div>
