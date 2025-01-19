@@ -29,9 +29,9 @@ function JobApp(){
                     <div>
                         {/* Heading */}
                         <h1 class="font-semibold text-[2.5rem] text-[#FFFFFF]">
-                            Leet
+                            Application&nbsp;
                             <span id="username" class="dark-blue">
-                                Code</span>
+                                Tracker</span>
                         </h1>
                         {/* Subheading */}
                         <p class="text-[#FFFFFF]">
@@ -40,7 +40,7 @@ function JobApp(){
                     </div>
 
                     <img src={sob} alt="Cartoon-styled blue owl raising one arm up in a wave, with its mouth wide open in a smile."
-                                            class="h-[20rem] relative left-[5rem] top-[-2rem]" />
+                        class="h-[20rem] relative left-[-5rem] top-[-2rem]" />
                 </div>
 
                 <div class="">
@@ -53,14 +53,12 @@ function JobApp(){
 
             <div class="orange-strip"></div>
 
-            <main class="relative px-[10rem] bg-gradient-to-b from-[#FF9B5E] via-[#FFB063] to-[#FFD86D] from-50%">
+            <main class="relative px-[10rem] bg-gradient-to-b from-[#FF9B5E] to-[#FFD86D]">
                 <div class="grid grid-cols-2 p-[1.5rem] gap-x-[1.5rem]">
                     <div class="info jobapp grid gap-y-[1rem]">
 
                     </div>
 
-                    <section class="info jobapp row-span-2 p-[1.5rem] rounded-card">
-                    </section>
                 </div>
                 {/* <LeetCodeStats showFullStats={isFullStatsPage} /> */}
 

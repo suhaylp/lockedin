@@ -41,6 +41,10 @@ h1, .display-font, #username{
     font-family:'Fredoka','sans-serif';
 }
 
+.block.display-font{
+    font-weight:600;
+}
+
 .light-blue{
     color:#29A3EF;
 }
