@@ -59,7 +59,7 @@ function Index() {
                         LOG IN
                     </Link>
 
-                    {user ? (
+                    {/* {user ? (
                         <div className="flex items-center gap-4">
                             <p>Welcome, {user.name}</p>
                             <button
@@ -74,7 +74,7 @@ function Index() {
                             onSuccess={handleLoginSuccess}
                             onError={handleLoginFailure}
                         />
-                    )}
+                    )} */}
                 </nav>
 
                 <div class="flex relative mt-[5rem]">
