@@ -26,3 +26,28 @@ h1, .display-font, #username{
 .info{
     background-color:#FFFFFF;
 }
+
+.button{
+    font-family:'Fredoka','sans-serif';
+    font-weight:bold;
+    font-size:1.25rem;
+    letter-spacing:0.05rem;
+    padding:0.5rem 0.75rem;
+    border-radius:0.75rem;
+}
+
+.dark-blue-bg{
+    color:#FFFFFF;
+    background-color: #0268C8;
+}
+
+.light-blue-bg{
+    color:#FFFFFF;
+    background-color: #29A3EF;
+}
+
+.light-blue-bg:hover{
+    background-color:#FFC200;
+    transition: background-color 0.2s;
+
+}

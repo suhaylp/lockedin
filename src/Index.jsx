@@ -18,8 +18,8 @@ function Index(){
                             class="h-[3rem]" />
                     </Link>
 
-                    <Link to="/">
-                        <p>LOG IN</p>
+                    <Link to="/" class="button light-blue-bg ml-auto">
+                        LOG IN
                     </Link>
                 </nav>
 
