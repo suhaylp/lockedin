@@ -78,19 +78,17 @@ function Index() {
                         </Link>
                     </div>
 
-                    <section class="bg-[#FFD737] row-span-2 p-[1.5rem] rounded-card">
-                        <h2 class="font-semibold display-font text-center text-[#FFFFFF]">YOUR STATS</h2>
+                    <div class="bg-[#FFD737] row-span-2 p-[1.5rem] rounded-card">
                         <img src={pfp}
-                            class="rounded-[50%] w-[10rem] mx-auto border-[0] mt-[0.5rem]" />
+                            class="rounded-[50%] w-[10rem] mx-auto border-[0] mt-[1rem]" />
                         <p class="text-[2rem] font-semibold display-font text-center text-[#EE9B00]">
                             Yonka
                         </p>
 
-
-                        <LeetCodeStats showFullStats={isFullStatsPage}/>
-
-
-                    </section>
+                        <div class="ml-[5.25rem] mt-[1.25rem] text-[#CD7900] text-[1.25rem]/[1.75rem]">
+                            <LeetCodeStats showFullStats={isFullStatsPage}/>
+                        </div>
+                    </div>
                 </div>
             </main>
 
