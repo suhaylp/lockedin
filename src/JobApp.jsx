@@ -15,12 +15,12 @@ function JobApp(){
         <>
             <header class="mx-[10rem] mt-[1rem]">
                 <nav class="flex ">
-                    <Link to="login">
+                    <Link to="/">
                         <img src={logo} alt="Home"
                             class="h-[3rem]" />
                     </Link>
 
-                    <Link to="/" class="button light-blue-bg ml-auto">
+                    <Link to="/login" class="button light-blue-bg ml-auto">
                         LOG IN
                     </Link>
                 </nav>

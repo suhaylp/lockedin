@@ -8,6 +8,9 @@ import logo from './assets/lockedin-logo.png';
 import pfp from './assets/placeholder-pfp.jpg';
 import wave from './assets/solo-wave-clouds.png';
 import clouds from './assets/clouds.png';
+import track_leetcode from './assets/solo-coding.png'
+import track_jobs from './assets/solo-google-offer.png';
+
 import LeetCodeStats from './LeetCodeStats.jsx';
 
 function Index() {
@@ -21,7 +24,7 @@ function Index() {
                             class="h-[3rem]" />
                     </Link>
 
-                    <Link to="login" class="button light-blue-bg ml-auto">
+                    <Link to="/login" class="button light-blue-bg ml-auto">
                         LOG IN
                     </Link>
                 </nav>
@@ -54,16 +57,25 @@ function Index() {
 
             <div class="white-strip"></div>
 
-            <main class="relative px-[10rem] bg-gradient-to-b from-[#FFFFFF] via-[#C3E1FA] to-[#86C3F5] from-50%">
-                <div class="grid grid-cols-2 p-[1.5rem] gap-x-[1.5rem] pt-[5rem]">
-                    <div class="grid gap-y-[1rem]">
-                        <section class="info home rounded-card">
-                            Lorem ipsum
-                        </section>
+            <main class="relative px-[10rem] bg-gradient-to-b from-[#FFFFFF] to-[#86C3F5]">
+                <div class="grid grid-cols-2 gap-x-[1.5rem] pt-[5rem]">
+                    <div class="grid grid-rows-2 gap-y-[1rem]">
+                        <Link to="/jobapp">
+                            <div class="relative info home rounded-card p-[1.5rem] h-[12rem] hover:scale-[105%] hover:drop-shadow-lg transition-transform">
+                                <p class="text-[#CD7900] font-bold text-[1.25rem]/[1.25rem] text-right"><span class="block">HAVE YOU APPLIED TO</span> <span class="block">ANY JOBS TODAY?</span></p>
+                                <img src={track_jobs} alt="Blue cartoon owl with round glasses holding a Google job offer" 
+                                    class="h-[10rem] absolute bottom-[0]"/>
+                            </div>
+                        </Link>
 
-                        <section class="info home rounded-card">
-                            Lorem ipsum
-                        </section>
+                        <Link to="/leetcode">
+                            <div class="relative info home rounded-card p-[1.5rem] h-[12rem]
+                            hover:scale-[105%] hover:drop-shadow-lg transition-transform">
+                                <p class="text-[#CD7900] font-bold text-[1.25rem]/[1.25rem]"><span class="block">HAVE YOU PRACTICED</span> <span class="block">YOUR LEETCODE TODAY?</span></p>
+                                <img src={track_leetcode} alt="Blue cartoon owl with round glasses typing on a computer"
+                                    class="h-[7rem] absolute right-0 bottom-[0] rounded-xl" />
+                            </div>
+                        </Link>
                     </div>
 
                     <section class="bg-[#FFD737] row-span-2 p-[1.5rem] rounded-card">
